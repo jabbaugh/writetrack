@@ -1,0 +1,25 @@
+{
+  "name": "writetrack",
+  "version": "0.0.0",
+  "description": "WriteTrack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jabbaugh/writetrack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabbaugh/writetrack/issues"
+  },
+  "homepage": "https://github.com/jabbaugh/writetrack",
+  "dependencies": {
+    "express": "^4.9.6",
+    "express-handlebars": "^1.1.0",
+    "connect": "^3.2.0",
+    "path": "^0.4.9"
+  }
+}
