@@ -1,25 +1,34 @@
 {
-  "name": "writetrack",
-  "version": "0.0.0",
-  "description": "WriteTrack",
-  "main": "index.js",
+  "name": "write-track",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "start": "node ./bin/www"
   },
+  "dependencies": {
+    "express": "~4.0.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "hbs": "~2.8.0"
+  },
+  "description": "Tool to track writing",
+  "main": "app.js",
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/jabbaugh/writetrack.git"
+    "url": "https://github.com/jabbaugh/writetrack"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "write",
+    "track"
+  ],
+  "author": "James Baugh",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jabbaugh/writetrack/issues"
   },
-  "homepage": "https://github.com/jabbaugh/writetrack",
-  "dependencies": {
-    "express": "^4.9.6",
-    "express-handlebars": "^1.1.0",
-    "connect": "^3.2.0",
-    "path": "^0.4.9"
-  }
+  "homepage": "https://github.com/jabbaugh/writetrack"
 }
