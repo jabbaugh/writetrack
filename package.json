@@ -1,35 +1,22 @@
 {
-  "name": "write-track",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "express": "~4.0.0",
-    "static-favicon": "~1.0.0",
+  "name": "node-authentication",
+  "main": "server.js",
+  "dependencies" : {
+    "express" : "~4.0.0",
+    "ejs" : "~0.8.5",
+    "mongoose" : "~3.8.1",
+    "passport" : "~0.1.17",
+    "passport-local" : "~0.1.6",
+    "passport-facebook" : "~1.0.2",
+    "passport-twitter" : "~1.0.2",
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1",
+    "bcrypt-nodejs" : "latest",
+    "mysql": "^2.5.4",
     "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
-    "debug": "~0.7.4",
-    "hbs": "~2.8.0",
-    "everyauth": "^0.4.5"
-  },
-  "description": "Tool to track writing",
-  "main": "app.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jabbaugh/writetrack"
-  },
-  "keywords": [
-    "write",
-    "track"
-  ],
-  "author": "James Baugh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jabbaugh/writetrack/issues"
-  },
-  "homepage": "https://github.com/jabbaugh/writetrack"
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"
+  }
 }
